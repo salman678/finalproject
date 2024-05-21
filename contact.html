@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+  }
+
+  nav ul li {
+      margin-right: 20px;
+  }
+
+  nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+      background-color: #555;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">
+      <i class="fas fa-utensils"></i> Cluster Food
+  </div>
+  <nav>
+      <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="breakfast.html">Breakfast</a></li>
+          <li><a href="lunch.html">Lunch</a></li>
+          <li><a href="dessert.html">Dessert</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </nav>
+</header>
+
+<div class="contact-container">
+  <h2 class="contact-title">Contact Us</h2>
+  <div class="contact-details">
+  </div>
+  <form class="contact-form" method="post" action="#">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

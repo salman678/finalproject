@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    padding: 20px;
+}
+.grid-item{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in-out;
+}
+.grid-item:hover{
+    transform: scale(1.05);
+}
+
+

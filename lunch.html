@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lunch.css">
+    <title>Flex and Grid mix</title>
+    <style>
+      
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+
+      header {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+      }
+
+      nav ul li {
+          margin-right: 20px;
+      }
+
+      nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          padding: 10px;
+          transition: background-color 0.3s ease;
+      }
+
+      nav ul li a:hover {
+          background-color: #555;
+      }
+
+      .intro-text {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f5f5f5; /* Light gray */
+}
+
+.intro-text p {
+    font-size: 18px;
+    color: #333333; /* Dark gray */
+    max-width: 800px;
+    margin: 0 auto;
+}
+  </style>
+</head>
+<body>
+  <header>
+      <div class="logo">
+          <i class="fas fa-utensils"></i> Cluster Food
+      </div>
+      <nav>
+          <ul>
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="breakfast.html">Breakfast</a></li>
+              <li><a href="lunch.html">Lunch</a></li>
+              <li><a href="dessert.html">Dessert</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+        <div class="headline">
+          <h1>Lunch Menu</h1>
+        </div>
+      
+        <div class="container">
+          <div class="grid-box">
+            <img src="https://thedinnerdaily.com/wp-content/uploads/2020/10/Lunch-Ideas-Blog-.png" alt="Food Image">
+            <h3>Dish 1</h3>
+            <p>Chicken sallad.</p>
+          </div>
+          <div class="grid-box">
+            <img src="https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg" alt="Food Image">
+            <h3>Dish 2</h3>
+            <p>Cheese pizza</p>
+          </div>
+          <div class="grid-box">
+            <img src="https://static01.nyt.com/images/2023/12/07/multimedia/LH-Flank-steak/nd-cucumber-salad-hwtv-superJumbo.jpg" alt="Food Image">
+            <h3>Dish 3</h3>
+            <p>Juicy steak</p>
+          </div>
+        </div>
+      <section>
+        <div class="flex-container">
+          <div class="flex-box">
+            <img src="https://svensktkott.se/wp-content/uploads/2011/06/tacos-7709022.jpg" alt="Food Image">
+            <h3>Dish 4</h3>
+            <p>Tacos</p>
+          </div>
+          <div class="flex-box">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/smash-burger-eiliv-aceron-unsplash-elle-gourmet-1669736023.jpg?resize=980:*" alt="Food Image">
+            <h3>Dish 5</h3>
+            <p>Smashed burger</p>
+          </div>
+          <div class="flex-box">
+            <img src="https://www.eatwell101.com/wp-content/uploads/2023/06/Quick-Dinner-Recipes-for-Kids.jpg" alt="Food Image">
+            <h3>Dish 6</h3>
+            <p>Pasta mix</p>
+          </div>
+        </section>
+        </div>
+</body>
+</html>
